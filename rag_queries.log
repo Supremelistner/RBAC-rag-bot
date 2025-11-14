@@ -1,0 +1,498 @@
+2025-11-13 22:49:29,737 INFO START_QUERY user=mister role=Marketing question=what is marketing
+2025-11-13 22:49:35,770 ERROR Failed to build RAG chain
+Traceback (most recent call last):
+  File "C:\Users\MANISH\OneDrive\RAG bot\Backend\Rag\api.py", line 52, in rag_query
+    chain = get_role_rag_chain(role)
+  File "C:\Users\MANISH\OneDrive\RAG bot\Backend\Rag\rag_chain.py", line 64, in get_role_rag_chain
+    {
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 656, in __ror__
+    return RunnableSequence(coerce_to_runnable(other), self)
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 6034, in coerce_to_runnable
+    return cast("Runnable[Input, Output]", RunnableParallel(thing))
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3646, in __init__
+    steps__={key: coerce_to_runnable(r) for key, r in merged.items()}
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3646, in <dictcomp>
+    steps__={key: coerce_to_runnable(r) for key, r in merged.items()}
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 6039, in coerce_to_runnable
+    raise TypeError(msg)
+TypeError: Expected a Runnable, callable or dict.Instead got an unsupported type: <class 'str'>
+2025-11-13 22:49:35,808 INFO START_QUERY user=mister role=Marketing question=what is marketing
+2025-11-13 22:49:40,913 ERROR Failed to build RAG chain
+Traceback (most recent call last):
+  File "C:\Users\MANISH\OneDrive\RAG bot\Backend\Rag\api.py", line 52, in rag_query
+    chain = get_role_rag_chain(role)
+  File "C:\Users\MANISH\OneDrive\RAG bot\Backend\Rag\rag_chain.py", line 64, in get_role_rag_chain
+    {
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 656, in __ror__
+    return RunnableSequence(coerce_to_runnable(other), self)
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 6034, in coerce_to_runnable
+    return cast("Runnable[Input, Output]", RunnableParallel(thing))
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3646, in __init__
+    steps__={key: coerce_to_runnable(r) for key, r in merged.items()}
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3646, in <dictcomp>
+    steps__={key: coerce_to_runnable(r) for key, r in merged.items()}
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 6039, in coerce_to_runnable
+    raise TypeError(msg)
+TypeError: Expected a Runnable, callable or dict.Instead got an unsupported type: <class 'str'>
+2025-11-13 22:49:40,940 INFO START_QUERY user=mister role=Marketing question=what is marketing
+2025-11-13 22:49:46,417 ERROR Failed to build RAG chain
+Traceback (most recent call last):
+  File "C:\Users\MANISH\OneDrive\RAG bot\Backend\Rag\api.py", line 52, in rag_query
+    chain = get_role_rag_chain(role)
+  File "C:\Users\MANISH\OneDrive\RAG bot\Backend\Rag\rag_chain.py", line 64, in get_role_rag_chain
+    {
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 656, in __ror__
+    return RunnableSequence(coerce_to_runnable(other), self)
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 6034, in coerce_to_runnable
+    return cast("Runnable[Input, Output]", RunnableParallel(thing))
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3646, in __init__
+    steps__={key: coerce_to_runnable(r) for key, r in merged.items()}
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3646, in <dictcomp>
+    steps__={key: coerce_to_runnable(r) for key, r in merged.items()}
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 6039, in coerce_to_runnable
+    raise TypeError(msg)
+TypeError: Expected a Runnable, callable or dict.Instead got an unsupported type: <class 'str'>
+2025-11-13 22:49:46,441 INFO START_QUERY user=mister role=Marketing question=what is marketing
+2025-11-13 22:49:51,193 ERROR Failed to build RAG chain
+Traceback (most recent call last):
+  File "C:\Users\MANISH\OneDrive\RAG bot\Backend\Rag\api.py", line 52, in rag_query
+    chain = get_role_rag_chain(role)
+  File "C:\Users\MANISH\OneDrive\RAG bot\Backend\Rag\rag_chain.py", line 64, in get_role_rag_chain
+    {
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 656, in __ror__
+    return RunnableSequence(coerce_to_runnable(other), self)
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 6034, in coerce_to_runnable
+    return cast("Runnable[Input, Output]", RunnableParallel(thing))
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3646, in __init__
+    steps__={key: coerce_to_runnable(r) for key, r in merged.items()}
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3646, in <dictcomp>
+    steps__={key: coerce_to_runnable(r) for key, r in merged.items()}
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 6039, in coerce_to_runnable
+    raise TypeError(msg)
+TypeError: Expected a Runnable, callable or dict.Instead got an unsupported type: <class 'str'>
+2025-11-13 22:49:51,217 INFO START_QUERY user=mister role=Marketing question=what is marketing
+2025-11-13 22:49:56,688 ERROR Failed to build RAG chain
+Traceback (most recent call last):
+  File "C:\Users\MANISH\OneDrive\RAG bot\Backend\Rag\api.py", line 52, in rag_query
+    chain = get_role_rag_chain(role)
+  File "C:\Users\MANISH\OneDrive\RAG bot\Backend\Rag\rag_chain.py", line 64, in get_role_rag_chain
+    {
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 656, in __ror__
+    return RunnableSequence(coerce_to_runnable(other), self)
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 6034, in coerce_to_runnable
+    return cast("Runnable[Input, Output]", RunnableParallel(thing))
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3646, in __init__
+    steps__={key: coerce_to_runnable(r) for key, r in merged.items()}
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3646, in <dictcomp>
+    steps__={key: coerce_to_runnable(r) for key, r in merged.items()}
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 6039, in coerce_to_runnable
+    raise TypeError(msg)
+TypeError: Expected a Runnable, callable or dict.Instead got an unsupported type: <class 'str'>
+2025-11-13 22:49:56,720 INFO START_QUERY user=mister role=Marketing question=what is marketing
+2025-11-13 22:50:01,602 ERROR Failed to build RAG chain
+Traceback (most recent call last):
+  File "C:\Users\MANISH\OneDrive\RAG bot\Backend\Rag\api.py", line 52, in rag_query
+    chain = get_role_rag_chain(role)
+  File "C:\Users\MANISH\OneDrive\RAG bot\Backend\Rag\rag_chain.py", line 64, in get_role_rag_chain
+    {
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 656, in __ror__
+    return RunnableSequence(coerce_to_runnable(other), self)
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 6034, in coerce_to_runnable
+    return cast("Runnable[Input, Output]", RunnableParallel(thing))
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3646, in __init__
+    steps__={key: coerce_to_runnable(r) for key, r in merged.items()}
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3646, in <dictcomp>
+    steps__={key: coerce_to_runnable(r) for key, r in merged.items()}
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 6039, in coerce_to_runnable
+    raise TypeError(msg)
+TypeError: Expected a Runnable, callable or dict.Instead got an unsupported type: <class 'str'>
+2025-11-13 22:50:01,643 INFO START_QUERY user=mister role=Marketing question=what is marketing
+2025-11-13 22:50:07,262 ERROR Failed to build RAG chain
+Traceback (most recent call last):
+  File "C:\Users\MANISH\OneDrive\RAG bot\Backend\Rag\api.py", line 52, in rag_query
+    chain = get_role_rag_chain(role)
+  File "C:\Users\MANISH\OneDrive\RAG bot\Backend\Rag\rag_chain.py", line 64, in get_role_rag_chain
+    {
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 656, in __ror__
+    return RunnableSequence(coerce_to_runnable(other), self)
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 6034, in coerce_to_runnable
+    return cast("Runnable[Input, Output]", RunnableParallel(thing))
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3646, in __init__
+    steps__={key: coerce_to_runnable(r) for key, r in merged.items()}
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3646, in <dictcomp>
+    steps__={key: coerce_to_runnable(r) for key, r in merged.items()}
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 6039, in coerce_to_runnable
+    raise TypeError(msg)
+TypeError: Expected a Runnable, callable or dict.Instead got an unsupported type: <class 'str'>
+2025-11-13 22:50:07,293 INFO START_QUERY user=mister role=Marketing question=what is marketing
+2025-11-13 22:50:12,136 ERROR Failed to build RAG chain
+Traceback (most recent call last):
+  File "C:\Users\MANISH\OneDrive\RAG bot\Backend\Rag\api.py", line 52, in rag_query
+    chain = get_role_rag_chain(role)
+  File "C:\Users\MANISH\OneDrive\RAG bot\Backend\Rag\rag_chain.py", line 64, in get_role_rag_chain
+    {
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 656, in __ror__
+    return RunnableSequence(coerce_to_runnable(other), self)
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 6034, in coerce_to_runnable
+    return cast("Runnable[Input, Output]", RunnableParallel(thing))
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3646, in __init__
+    steps__={key: coerce_to_runnable(r) for key, r in merged.items()}
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3646, in <dictcomp>
+    steps__={key: coerce_to_runnable(r) for key, r in merged.items()}
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 6039, in coerce_to_runnable
+    raise TypeError(msg)
+TypeError: Expected a Runnable, callable or dict.Instead got an unsupported type: <class 'str'>
+2025-11-13 22:50:12,168 INFO START_QUERY user=mister role=Marketing question=what is marketing
+2025-11-13 22:50:17,421 ERROR Failed to build RAG chain
+Traceback (most recent call last):
+  File "C:\Users\MANISH\OneDrive\RAG bot\Backend\Rag\api.py", line 52, in rag_query
+    chain = get_role_rag_chain(role)
+  File "C:\Users\MANISH\OneDrive\RAG bot\Backend\Rag\rag_chain.py", line 64, in get_role_rag_chain
+    {
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 656, in __ror__
+    return RunnableSequence(coerce_to_runnable(other), self)
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 6034, in coerce_to_runnable
+    return cast("Runnable[Input, Output]", RunnableParallel(thing))
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3646, in __init__
+    steps__={key: coerce_to_runnable(r) for key, r in merged.items()}
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3646, in <dictcomp>
+    steps__={key: coerce_to_runnable(r) for key, r in merged.items()}
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 6039, in coerce_to_runnable
+    raise TypeError(msg)
+TypeError: Expected a Runnable, callable or dict.Instead got an unsupported type: <class 'str'>
+2025-11-13 22:50:17,450 INFO START_QUERY user=mister role=Marketing question=what is marketing
+2025-11-13 22:50:22,241 ERROR Failed to build RAG chain
+Traceback (most recent call last):
+  File "C:\Users\MANISH\OneDrive\RAG bot\Backend\Rag\api.py", line 52, in rag_query
+    chain = get_role_rag_chain(role)
+  File "C:\Users\MANISH\OneDrive\RAG bot\Backend\Rag\rag_chain.py", line 64, in get_role_rag_chain
+    {
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 656, in __ror__
+    return RunnableSequence(coerce_to_runnable(other), self)
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 6034, in coerce_to_runnable
+    return cast("Runnable[Input, Output]", RunnableParallel(thing))
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3646, in __init__
+    steps__={key: coerce_to_runnable(r) for key, r in merged.items()}
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3646, in <dictcomp>
+    steps__={key: coerce_to_runnable(r) for key, r in merged.items()}
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 6039, in coerce_to_runnable
+    raise TypeError(msg)
+TypeError: Expected a Runnable, callable or dict.Instead got an unsupported type: <class 'str'>
+2025-11-13 22:50:22,275 INFO START_QUERY user=mister role=Marketing question=what is marketing
+2025-11-13 22:50:28,350 ERROR Failed to build RAG chain
+Traceback (most recent call last):
+  File "C:\Users\MANISH\OneDrive\RAG bot\Backend\Rag\api.py", line 52, in rag_query
+    chain = get_role_rag_chain(role)
+  File "C:\Users\MANISH\OneDrive\RAG bot\Backend\Rag\rag_chain.py", line 64, in get_role_rag_chain
+    {
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 656, in __ror__
+    return RunnableSequence(coerce_to_runnable(other), self)
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 6034, in coerce_to_runnable
+    return cast("Runnable[Input, Output]", RunnableParallel(thing))
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3646, in __init__
+    steps__={key: coerce_to_runnable(r) for key, r in merged.items()}
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3646, in <dictcomp>
+    steps__={key: coerce_to_runnable(r) for key, r in merged.items()}
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 6039, in coerce_to_runnable
+    raise TypeError(msg)
+TypeError: Expected a Runnable, callable or dict.Instead got an unsupported type: <class 'str'>
+2025-11-13 22:50:28,374 INFO START_QUERY user=mister role=Marketing question=what is marketing
+2025-11-13 22:50:34,327 ERROR Failed to build RAG chain
+Traceback (most recent call last):
+  File "C:\Users\MANISH\OneDrive\RAG bot\Backend\Rag\api.py", line 52, in rag_query
+    chain = get_role_rag_chain(role)
+  File "C:\Users\MANISH\OneDrive\RAG bot\Backend\Rag\rag_chain.py", line 64, in get_role_rag_chain
+    {
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 656, in __ror__
+    return RunnableSequence(coerce_to_runnable(other), self)
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 6034, in coerce_to_runnable
+    return cast("Runnable[Input, Output]", RunnableParallel(thing))
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3646, in __init__
+    steps__={key: coerce_to_runnable(r) for key, r in merged.items()}
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3646, in <dictcomp>
+    steps__={key: coerce_to_runnable(r) for key, r in merged.items()}
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 6039, in coerce_to_runnable
+    raise TypeError(msg)
+TypeError: Expected a Runnable, callable or dict.Instead got an unsupported type: <class 'str'>
+2025-11-13 22:50:34,359 INFO START_QUERY user=mister role=Marketing question=what is marketing
+2025-11-13 22:50:39,193 ERROR Failed to build RAG chain
+Traceback (most recent call last):
+  File "C:\Users\MANISH\OneDrive\RAG bot\Backend\Rag\api.py", line 52, in rag_query
+    chain = get_role_rag_chain(role)
+  File "C:\Users\MANISH\OneDrive\RAG bot\Backend\Rag\rag_chain.py", line 64, in get_role_rag_chain
+    {
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 656, in __ror__
+    return RunnableSequence(coerce_to_runnable(other), self)
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 6034, in coerce_to_runnable
+    return cast("Runnable[Input, Output]", RunnableParallel(thing))
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3646, in __init__
+    steps__={key: coerce_to_runnable(r) for key, r in merged.items()}
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3646, in <dictcomp>
+    steps__={key: coerce_to_runnable(r) for key, r in merged.items()}
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 6039, in coerce_to_runnable
+    raise TypeError(msg)
+TypeError: Expected a Runnable, callable or dict.Instead got an unsupported type: <class 'str'>
+2025-11-13 22:59:33,770 INFO START_QUERY user=mister role=Marketing question=what is marketing
+2025-11-13 22:59:42,284 ERROR Failed to build RAG chain
+Traceback (most recent call last):
+  File "C:\Users\MANISH\OneDrive\RAG bot\Backend\Rag\api.py", line 52, in rag_query
+    chain = get_role_rag_chain(role)
+  File "C:\Users\MANISH\OneDrive\RAG bot\Backend\Rag\rag_chain.py", line 160, in get_role_rag_chain
+    raise e
+  File "C:\Users\MANISH\OneDrive\RAG bot\Backend\Rag\rag_chain.py", line 140, in get_role_rag_chain
+    {
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 656, in __ror__
+    return RunnableSequence(coerce_to_runnable(other), self)
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 6034, in coerce_to_runnable
+    return cast("Runnable[Input, Output]", RunnableParallel(thing))
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3646, in __init__
+    steps__={key: coerce_to_runnable(r) for key, r in merged.items()}
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3646, in <dictcomp>
+    steps__={key: coerce_to_runnable(r) for key, r in merged.items()}
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 6039, in coerce_to_runnable
+    raise TypeError(msg)
+TypeError: Expected a Runnable, callable or dict.Instead got an unsupported type: <class 'str'>
+2025-11-13 23:02:32,086 INFO START_QUERY user=mister role=Marketing question=what is marketing
+2025-11-13 23:02:41,064 ERROR Failed to build RAG chain
+Traceback (most recent call last):
+  File "C:\Users\MANISH\OneDrive\RAG bot\Backend\Rag\api.py", line 52, in rag_query
+    chain = get_role_rag_chain(role)
+  File "C:\Users\MANISH\OneDrive\RAG bot\Backend\Rag\rag_chain.py", line 160, in get_role_rag_chain
+    raise e
+  File "C:\Users\MANISH\OneDrive\RAG bot\Backend\Rag\rag_chain.py", line 151, in get_role_rag_chain
+    rag_chain.retriever = retriever
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\pydantic\main.py", line 1032, in __setattr__
+    elif (setattr_handler := self._setattr_handler(name, value)) is not None:
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\pydantic\main.py", line 1079, in _setattr_handler
+    raise ValueError(f'"{cls.__name__}" object has no field "{name}"')
+ValueError: "RunnableSequence" object has no field "retriever"
+2025-11-13 23:08:07,915 INFO START_QUERY user=mister role=Marketing question=what is marketing
+2025-11-13 23:08:16,430 ERROR RAG chain invocation failed
+Traceback (most recent call last):
+  File "C:\Users\MANISH\OneDrive\RAG bot\Backend\Rag\api.py", line 59, in rag_query
+    answer = chain.invoke({"question": question})
+  File "C:\Users\MANISH\OneDrive\RAG bot\Backend\Rag\rag_chain.py", line 149, in invoke
+    return self.chain.invoke(*args, **kwargs)
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3127, in invoke
+    input_ = context.run(step.invoke, input_, config, **kwargs)
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3853, in invoke
+    output = {
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3854, in <dictcomp>
+    key: future.result()
+  File "c:\program files\python310\lib\concurrent\futures\_base.py", line 439, in result
+    return self.__get_result()
+  File "c:\program files\python310\lib\concurrent\futures\_base.py", line 391, in __get_result
+    raise self._exception
+  File "c:\program files\python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3837, in _invoke_step
+    return context.run(
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3127, in invoke
+    input_ = context.run(step.invoke, input_, config, **kwargs)
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\retrievers.py", line 216, in invoke
+    result = self._get_relevant_documents(
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\vectorstores\base.py", line 1033, in _get_relevant_documents
+    docs = self.vectorstore.similarity_search(query, **kwargs_)
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_chroma\vectorstores.py", line 695, in similarity_search
+    docs_and_scores = self.similarity_search_with_score(
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_chroma\vectorstores.py", line 795, in similarity_search_with_score
+    query_embedding = self._embedding_function.embed_query(query)
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_huggingface\embeddings\huggingface.py", line 172, in embed_query
+    return self._embed([text], embed_kwargs)[0]
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_huggingface\embeddings\huggingface.py", line 124, in _embed
+    texts = [x.replace("\n", " ") for x in texts]
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_huggingface\embeddings\huggingface.py", line 124, in <listcomp>
+    texts = [x.replace("\n", " ") for x in texts]
+AttributeError: 'dict' object has no attribute 'replace'
+2025-11-13 23:17:09,767 INFO START_QUERY user=mister role=Marketing question=what is marketing
+2025-11-13 23:17:19,655 ERROR RAG chain invocation failed
+Traceback (most recent call last):
+  File "C:\Users\MANISH\OneDrive\RAG bot\Backend\Rag\api.py", line 59, in rag_query
+    answer = chain.chain.invoke({"question": question})
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3127, in invoke
+    input_ = context.run(step.invoke, input_, config, **kwargs)
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3853, in invoke
+    output = {
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3854, in <dictcomp>
+    key: future.result()
+  File "c:\program files\python310\lib\concurrent\futures\_base.py", line 439, in result
+    return self.__get_result()
+  File "c:\program files\python310\lib\concurrent\futures\_base.py", line 391, in __get_result
+    raise self._exception
+  File "c:\program files\python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3837, in _invoke_step
+    return context.run(
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3127, in invoke
+    input_ = context.run(step.invoke, input_, config, **kwargs)
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\retrievers.py", line 216, in invoke
+    result = self._get_relevant_documents(
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\vectorstores\base.py", line 1033, in _get_relevant_documents
+    docs = self.vectorstore.similarity_search(query, **kwargs_)
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_chroma\vectorstores.py", line 695, in similarity_search
+    docs_and_scores = self.similarity_search_with_score(
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_chroma\vectorstores.py", line 795, in similarity_search_with_score
+    query_embedding = self._embedding_function.embed_query(query)
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_huggingface\embeddings\huggingface.py", line 172, in embed_query
+    return self._embed([text], embed_kwargs)[0]
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_huggingface\embeddings\huggingface.py", line 124, in _embed
+    texts = [x.replace("\n", " ") for x in texts]
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_huggingface\embeddings\huggingface.py", line 124, in <listcomp>
+    texts = [x.replace("\n", " ") for x in texts]
+AttributeError: 'dict' object has no attribute 'replace'
+2025-11-13 23:21:41,009 INFO START_QUERY user=mister role=Marketing question=what is marketing
+2025-11-13 23:21:50,923 ERROR RAG chain invocation failed: AttributeError("'dict' object has no attribute 'replace'")
+Traceback (most recent call last):
+  File "C:\Users\MANISH\OneDrive\RAG bot\Backend\Rag\api.py", line 59, in rag_query
+    answer = chain.chain.invoke({"question": question})
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3127, in invoke
+    input_ = context.run(step.invoke, input_, config, **kwargs)
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3853, in invoke
+    output = {
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3854, in <dictcomp>
+    key: future.result()
+  File "c:\program files\python310\lib\concurrent\futures\_base.py", line 439, in result
+    return self.__get_result()
+  File "c:\program files\python310\lib\concurrent\futures\_base.py", line 391, in __get_result
+    raise self._exception
+  File "c:\program files\python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3837, in _invoke_step
+    return context.run(
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3127, in invoke
+    input_ = context.run(step.invoke, input_, config, **kwargs)
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\retrievers.py", line 216, in invoke
+    result = self._get_relevant_documents(
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\vectorstores\base.py", line 1033, in _get_relevant_documents
+    docs = self.vectorstore.similarity_search(query, **kwargs_)
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_chroma\vectorstores.py", line 695, in similarity_search
+    docs_and_scores = self.similarity_search_with_score(
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_chroma\vectorstores.py", line 795, in similarity_search_with_score
+    query_embedding = self._embedding_function.embed_query(query)
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_huggingface\embeddings\huggingface.py", line 172, in embed_query
+    return self._embed([text], embed_kwargs)[0]
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_huggingface\embeddings\huggingface.py", line 124, in _embed
+    texts = [x.replace("\n", " ") for x in texts]
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_huggingface\embeddings\huggingface.py", line 124, in <listcomp>
+    texts = [x.replace("\n", " ") for x in texts]
+AttributeError: 'dict' object has no attribute 'replace'
+2025-11-13 23:30:37,546 INFO [START_QUERY] user=mister role=Marketing question=what is marketing
+2025-11-13 23:30:52,429 WARNING [WARN] Could not fetch sources: AttributeError("'VectorStoreRetriever' object has no attribute 'get_relevant_documents'")
+2025-11-13 23:30:52,429 INFO [END_QUERY] user=mister role=Marketing time_s=14.883 answer_len=47 sources=0
+2025-11-13 23:31:44,646 INFO [START_QUERY] user=misteras role=Finance question=what is Accounting
+2025-11-13 23:31:54,343 WARNING [WARN] Could not fetch sources: AttributeError("'VectorStoreRetriever' object has no attribute 'get_relevant_documents'")
+2025-11-13 23:31:54,343 INFO [END_QUERY] user=misteras role=Finance time_s=9.698 answer_len=46 sources=0
+2025-11-13 23:35:04,532 INFO [START_QUERY] user=misteras role=Finance question=what is Accounting
+2025-11-13 23:35:16,445 WARNING [WARN] Could not fetch sources: AttributeError("'VectorStoreRetriever' object has no attribute 'get_relevant_documents'")
+2025-11-13 23:35:16,446 INFO [END_QUERY] user=misteras role=Finance time_s=11.914 answer_len=47 sources=0
+2025-11-13 23:35:48,503 INFO [START_QUERY] user=mister role=Marketing question=what is marketing
+2025-11-13 23:35:58,859 WARNING [WARN] Could not fetch sources: AttributeError("'VectorStoreRetriever' object has no attribute 'get_relevant_documents'")
+2025-11-13 23:35:58,860 INFO [END_QUERY] user=mister role=Marketing time_s=10.357 answer_len=47 sources=0
+2025-11-13 23:42:30,952 INFO [START_QUERY] user=mister role=Marketing question=what is marketing
+2025-11-14 00:09:55,108 INFO [START_QUERY] user=master role=Marketing question=what is marketing
+2025-11-14 00:12:52,836 WARNING [WARN] Could not fetch sources: AttributeError("'VectorStoreRetriever' object has no attribute 'get_relevant_documents'")
+2025-11-14 00:12:52,843 INFO [END_QUERY] user=master role=Marketing time_s=177.734 answer_len=1228 sources=0
+2025-11-14 11:22:30,998 INFO [START_QUERY] user=mister role=Employee question=what is marketing
+2025-11-14 11:24:01,844 WARNING [WARN] Could not fetch sources: AttributeError("'VectorStoreRetriever' object has no attribute 'get_relevant_documents'")
+2025-11-14 11:24:01,844 INFO [END_QUERY] user=mister role=Employee time_s=90.846 answer_len=56 sources=0
+2025-11-14 11:41:28,983 INFO [START_QUERY] user=misters role=Marketing question=what is marketing
+2025-11-14 11:41:47,897 WARNING [WARN] Could not fetch sources: AttributeError("'VectorStoreRetriever' object has no attribute 'get_relevant_documents'")
+2025-11-14 11:41:47,897 INFO [END_QUERY] user=misters role=Marketing time_s=18.913 answer_len=136 sources=0
+2025-11-14 12:25:42,745 INFO START user=missery role=Marketing question=what is marketing
+2025-11-14 12:25:51,799 ERROR RAG chain invocation error
+Traceback (most recent call last):
+  File "C:\Users\MANISH\OneDrive\RAG bot\Backend\Rag\api.py", line 51, in rag_query
+    answer = chain.invoke({"question": question})
+  File "C:\Users\MANISH\OneDrive\RAG bot\Backend\Rag\rag_chain.py", line 137, in invoke
+    return self.chain.invoke(inp)
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3127, in invoke
+    input_ = context.run(step.invoke, input_, config, **kwargs)
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3853, in invoke
+    output = {
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3854, in <dictcomp>
+    key: future.result()
+  File "c:\program files\python310\lib\concurrent\futures\_base.py", line 439, in result
+    return self.__get_result()
+  File "c:\program files\python310\lib\concurrent\futures\_base.py", line 391, in __get_result
+    raise self._exception
+  File "c:\program files\python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3837, in _invoke_step
+    return context.run(
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3127, in invoke
+    input_ = context.run(step.invoke, input_, config, **kwargs)
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 4857, in invoke
+    return self._call_with_config(
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 2050, in _call_with_config
+    context.run(
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\config.py", line 428, in call_func_with_variable_args
+    return func(input, **kwargs)  # type: ignore[call-arg]
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 4714, in _invoke
+    output = call_func_with_variable_args(
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\config.py", line 428, in call_func_with_variable_args
+    return func(input, **kwargs)  # type: ignore[call-arg]
+  File "C:\Users\MANISH\OneDrive\RAG bot\Backend\Rag\rag_chain.py", line 82, in <lambda>
+    lambda inp, **kwargs: retriever.invoke({"query": inp["question"]})
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\retrievers.py", line 216, in invoke
+    result = self._get_relevant_documents(
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\vectorstores\base.py", line 1033, in _get_relevant_documents
+    docs = self.vectorstore.similarity_search(query, **kwargs_)
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_chroma\vectorstores.py", line 695, in similarity_search
+    docs_and_scores = self.similarity_search_with_score(
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_chroma\vectorstores.py", line 795, in similarity_search_with_score
+    query_embedding = self._embedding_function.embed_query(query)
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_huggingface\embeddings\huggingface.py", line 172, in embed_query
+    return self._embed([text], embed_kwargs)[0]
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_huggingface\embeddings\huggingface.py", line 124, in _embed
+    texts = [x.replace("\n", " ") for x in texts]
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_huggingface\embeddings\huggingface.py", line 124, in <listcomp>
+    texts = [x.replace("\n", " ") for x in texts]
+AttributeError: 'dict' object has no attribute 'replace'
+2025-11-14 12:38:20,827 INFO START user=missery role=Marketing question=what is marketing
+2025-11-14 12:38:29,766 ERROR RAG chain invocation error
+Traceback (most recent call last):
+  File "C:\Users\MANISH\OneDrive\RAG bot\Backend\Rag\api.py", line 51, in rag_query
+    answer = chain.invoke({"question": question})
+  File "C:\Users\MANISH\OneDrive\RAG bot\Backend\Rag\rag_chain.py", line 169, in invoke
+    return self.chain.invoke(inp)
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3127, in invoke
+    input_ = context.run(step.invoke, input_, config, **kwargs)
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3853, in invoke
+    output = {
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3854, in <dictcomp>
+    key: future.result()
+  File "c:\program files\python310\lib\concurrent\futures\_base.py", line 439, in result
+    return self.__get_result()
+  File "c:\program files\python310\lib\concurrent\futures\_base.py", line 391, in __get_result
+    raise self._exception
+  File "c:\program files\python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3837, in _invoke_step
+    return context.run(
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3127, in invoke
+    input_ = context.run(step.invoke, input_, config, **kwargs)
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\retrievers.py", line 216, in invoke
+    result = self._get_relevant_documents(
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\vectorstores\base.py", line 1033, in _get_relevant_documents
+    docs = self.vectorstore.similarity_search(query, **kwargs_)
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_chroma\vectorstores.py", line 695, in similarity_search
+    docs_and_scores = self.similarity_search_with_score(
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_chroma\vectorstores.py", line 795, in similarity_search_with_score
+    query_embedding = self._embedding_function.embed_query(query)
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_huggingface\embeddings\huggingface.py", line 172, in embed_query
+    return self._embed([text], embed_kwargs)[0]
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_huggingface\embeddings\huggingface.py", line 124, in _embed
+    texts = [x.replace("\n", " ") for x in texts]
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_huggingface\embeddings\huggingface.py", line 124, in <listcomp>
+    texts = [x.replace("\n", " ") for x in texts]
+AttributeError: 'dict' object has no attribute 'replace'
+2025-11-14 12:45:12,915 INFO START user=missery role=Marketing question=what is marketing
+2025-11-14 12:52:25,043 INFO START user=missery role=Marketing question=what is marketing
+2025-11-14 12:58:13,436 INFO START user=missery role=Marketing question=what is marketing
+2025-11-14 13:01:03,753 INFO START user=missery role=Marketing question=what is marketing
+2025-11-14 13:03:54,464 INFO START user=missery role=Marketing question=what is marketing
+2025-11-14 13:04:09,178 WARNING Could not fetch sources
+2025-11-14 13:04:09,178 INFO END user=missery role=Marketing time=14.714s ans_len=88 sources=0
+2025-11-14 13:10:43,648 INFO START user=missery role=Marketing question=what is marketing
+2025-11-14 13:10:57,699 WARNING Could not fetch sources
+2025-11-14 13:10:57,699 INFO END user=missery role=Marketing time=14.051s ans_len=88 sources=0

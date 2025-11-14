@@ -1,0 +1,8 @@
+{
+  "Finance": ["finance_docs", "general_docs"],
+  "Marketing": ["marketing_docs", "general_docs"],
+  "HR": ["hr_docs", "general_docs"],
+  "Engineering": ["engineering_docs", "general_docs"],
+  "C_Level": ["finance_docs", "marketing_docs", "hr_docs", "engineering_docs", "c_level_docs", "general_docs"],
+  "Employee": ["general_docs"]
+}

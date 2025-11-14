@@ -1,0 +1,84 @@
+2025-11-13 22:59:33,771 - INFO - Initializing RAG chain for role=Marketing
+2025-11-13 22:59:33,780 - INFO - Loading embeddings model: all-MiniLM-L6-v2
+2025-11-13 22:59:39,737 - INFO - Loading Chroma DB from: ./Backend/Rag/chroma_index
+2025-11-13 22:59:40,023 - INFO - Loading HF pipeline model: google/flan-t5-base
+2025-11-13 22:59:42,280 - INFO - HF pipeline loaded successfully
+2025-11-13 22:59:42,282 - INFO - Building LCEL chain
+2025-11-13 22:59:42,282 - ERROR - Failed to build full RAG chain
+Traceback (most recent call last):
+  File "C:\Users\MANISH\OneDrive\RAG bot\Backend\Rag\rag_chain.py", line 140, in get_role_rag_chain
+    {
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 656, in __ror__
+    return RunnableSequence(coerce_to_runnable(other), self)
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 6034, in coerce_to_runnable
+    return cast("Runnable[Input, Output]", RunnableParallel(thing))
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3646, in __init__
+    steps__={key: coerce_to_runnable(r) for key, r in merged.items()}
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 3646, in <dictcomp>
+    steps__={key: coerce_to_runnable(r) for key, r in merged.items()}
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\langchain_core\runnables\base.py", line 6039, in coerce_to_runnable
+    raise TypeError(msg)
+TypeError: Expected a Runnable, callable or dict.Instead got an unsupported type: <class 'str'>
+2025-11-13 23:02:32,086 - INFO - Initializing RAG chain for role=Marketing
+2025-11-13 23:02:32,087 - INFO - Loading embeddings model: all-MiniLM-L6-v2
+2025-11-13 23:02:38,323 - INFO - Loading Chroma DB from: ./Backend/Rag/chroma_index
+2025-11-13 23:02:38,580 - INFO - Loading HF pipeline model: google/flan-t5-base
+2025-11-13 23:02:41,056 - INFO - HF pipeline loaded successfully
+2025-11-13 23:02:41,057 - INFO - Building LCEL chain
+2025-11-13 23:02:41,061 - ERROR - Failed to build full RAG chain
+Traceback (most recent call last):
+  File "C:\Users\MANISH\OneDrive\RAG bot\Backend\Rag\rag_chain.py", line 151, in get_role_rag_chain
+    rag_chain.retriever = retriever
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\pydantic\main.py", line 1032, in __setattr__
+    elif (setattr_handler := self._setattr_handler(name, value)) is not None:
+  File "C:\Users\MANISH\OneDrive\RAG bot\.venv\lib\site-packages\pydantic\main.py", line 1079, in _setattr_handler
+    raise ValueError(f'"{cls.__name__}" object has no field "{name}"')
+ValueError: "RunnableSequence" object has no field "retriever"
+2025-11-14 00:09:55,109 - INFO - [RAG] Building chain for role=Marketing
+2025-11-14 00:09:55,111 - INFO - [RAG] Loading embeddings model...
+2025-11-14 00:10:02,943 - INFO - [RAG] Embeddings loaded
+2025-11-14 00:10:02,943 - INFO - [RAG] Loading Chroma DB from: ./Backend/Rag/chroma_index
+2025-11-14 00:10:03,350 - INFO - [RAG] Chroma loaded
+2025-11-14 00:10:03,350 - INFO - [RAG] Creating retriever with role filter: Marketing
+2025-11-14 00:10:03,352 - INFO - [RAG] Retriever created
+2025-11-14 00:10:03,352 - INFO - [RAG] Building HF text-generation pipeline: microsoft/Phi-3.5-mini-instruct
+2025-11-14 00:10:07,855 - INFO - [RAG] HF text-generation pipeline built successfully
+2025-11-14 00:10:07,865 - INFO - [RAG] LCEL chain built successfully
+2025-11-14 11:22:30,998 - INFO - [RAG] Building chain for role=Employee
+2025-11-14 11:22:31,000 - INFO - [RAG] Loading embeddings model...
+2025-11-14 11:22:37,116 - INFO - [RAG] Embeddings loaded
+2025-11-14 11:22:37,117 - INFO - [RAG] Loading Chroma DB from: ./Backend/Rag/chroma_index
+2025-11-14 11:22:37,388 - INFO - [RAG] Chroma loaded
+2025-11-14 11:22:37,388 - INFO - [RAG] Creating retriever with role filter: Employee
+2025-11-14 11:22:37,389 - INFO - [RAG] Retriever created
+2025-11-14 11:22:37,391 - INFO - [RAG] Building HF text-generation pipeline: google/flan-t5-base
+2025-11-14 11:23:55,903 - INFO - [RAG] HF text-generation pipeline built successfully
+2025-11-14 11:23:55,953 - INFO - [RAG] LCEL chain built successfully
+2025-11-14 11:41:28,985 - INFO - [RAG] Building chain for role=Marketing
+2025-11-14 11:41:28,998 - INFO - [RAG] Loading embeddings model...
+2025-11-14 11:41:34,948 - INFO - [RAG] Embeddings loaded
+2025-11-14 11:41:34,949 - INFO - [RAG] Loading Chroma DB from: ./Backend/Rag/chroma_index
+2025-11-14 11:41:35,155 - INFO - [RAG] Chroma loaded
+2025-11-14 11:41:35,156 - INFO - [RAG] Creating retriever with role filter: Marketing
+2025-11-14 11:41:35,156 - INFO - [RAG] Retriever created
+2025-11-14 11:41:35,157 - INFO - [RAG] Building HF text-generation pipeline: google/flan-t5-base
+2025-11-14 11:41:38,472 - INFO - [RAG] HF text-generation pipeline built successfully
+2025-11-14 11:41:38,523 - INFO - [RAG] LCEL chain built successfully
+2025-11-14 12:25:49,131 - INFO - Loading HF pipeline model: google/flan-t5-base
+2025-11-14 12:25:51,793 - INFO - HF pipeline loaded successfully
+2025-11-14 12:38:20,829 - INFO - [RAG] get_role_rag_chain(Marketing) called
+2025-11-14 12:38:27,012 - INFO - [RAG] Loading HF pipeline model: google/flan-t5-base
+2025-11-14 12:38:29,760 - INFO - [RAG] HF pipeline loaded successfully
+2025-11-14 12:45:12,916 - INFO - [RAG] get_role_rag_chain(Marketing) called
+2025-11-14 12:45:19,259 - INFO - [RAG] Loading HF pipeline model: google/flan-t5-base
+2025-11-14 12:45:21,815 - INFO - [RAG] HF pipeline loaded successfully
+2025-11-14 13:42:22,127 - INFO - Loading embeddings
+2025-11-14 13:42:26,012 - INFO - Embeddings loaded
+2025-11-14 13:42:26,105 - INFO - Chroma loaded
+2025-11-14 13:42:26,106 - INFO - Retriever created
+2025-11-14 13:42:27,521 - INFO - HF pipeline loaded
+2025-11-14 13:46:48,358 - INFO - Loading embeddings
+2025-11-14 13:46:52,618 - INFO - Embeddings loaded
+2025-11-14 13:46:52,719 - INFO - Chroma loaded
+2025-11-14 13:46:52,719 - INFO - Retriever created
+2025-11-14 13:46:54,123 - INFO - HF pipeline loaded
